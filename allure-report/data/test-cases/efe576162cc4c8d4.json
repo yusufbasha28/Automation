@@ -1,0 +1,319 @@
+{
+  "uid" : "efe576162cc4c8d4",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "ffd3493913c92cbfdea59969eb5ba6e",
+  "time" : {
+    "start" : 1620399563036,
+    "stop" : 1620399570336,
+    "duration" : 7300
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "CompoundError: One or more errors occurred. ---\n                    Error: Expected [object Promise] to be existing.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:9:46)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    TypeError: SecurePage.flashAlert.getText is not a function\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:45)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---",
+  "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Expected [object Promise] to be existing.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:9:46)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    TypeError: SecurePage.flashAlert.getText is not a function\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:45)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    at Object.getErrorFromFailedTest (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:82:60)\n                    at AllureReporter.onTestFail (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\index.js:182:46)\n                    at AllureReporter.<anonymous> (D:\\wdio\\node_modules\\@wdio\\reporter\\build\\index.js:114:18)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:467:12)\n                    at D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:139:24)\n                    at JasmineReporter.specDone (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:80:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "CompoundError: One or more errors occurred. ---\n                    Error: Expected [object Promise] to be existing.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:9:46)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    TypeError: SecurePage.flashAlert.getText is not a function\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:45)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---",
+    "statusTrace" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Expected [object Promise] to be existing.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:9:46)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    TypeError: SecurePage.flashAlert.getText is not a function\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:45)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    at Object.getErrorFromFailedTest (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:82:60)\n                    at AllureReporter.onTestFail (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\index.js:182:46)\n                    at AllureReporter.<anonymous> (D:\\wdio\\node_modules\\@wdio\\reporter\\build\\index.js:114:18)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:467:12)\n                    at D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:139:24)\n                    at JasmineReporter.specDone (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:80:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1620399563039,
+        "stop" : 1620399568595,
+        "duration" : 5556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4e285fadaae9f9f",
+        "name" : "Request",
+        "source" : "e4e285fadaae9f9f.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1620399568599,
+        "stop" : 1620399568642,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31e78a164f694d1b",
+        "name" : "Request",
+        "source" : "31e78a164f694d1b.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "35d6971d8f3562b2",
+        "name" : "Response",
+        "source" : "35d6971d8f3562b2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/d34ee9bb-99a6-442b-ad0e-16ce022c624d/clear",
+      "time" : {
+        "start" : 1620399568660,
+        "stop" : 1620399568720,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/d34ee9bb-99a6-442b-ad0e-16ce022c624d/value",
+      "time" : {
+        "start" : 1620399568786,
+        "stop" : 1620399568953,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "58112918ec4336f1",
+        "name" : "Request",
+        "source" : "58112918ec4336f1.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1620399568954,
+        "stop" : 1620399568978,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f10b04663df6965",
+        "name" : "Request",
+        "source" : "9f10b04663df6965.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "8dc3b79dd690aded",
+        "name" : "Response",
+        "source" : "8dc3b79dd690aded.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/b6d71732-3474-46ff-9d93-c45cfbc3eb10/clear",
+      "time" : {
+        "start" : 1620399568983,
+        "stop" : 1620399569038,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/b6d71732-3474-46ff-9d93-c45cfbc3eb10/value",
+      "time" : {
+        "start" : 1620399569040,
+        "stop" : 1620399569229,
+        "duration" : 189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9a0fffdc009486b",
+        "name" : "Request",
+        "source" : "b9a0fffdc009486b.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1620399569230,
+        "stop" : 1620399569259,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ace9824545c4a021",
+        "name" : "Request",
+        "source" : "ace9824545c4a021.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "55e09c6448563543",
+        "name" : "Response",
+        "source" : "55e09c6448563543.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/13f2f65a-0837-49d0-b0a1-081fdd7b4155/click",
+      "time" : {
+        "start" : 1620399569265,
+        "stop" : 1620399570135,
+        "duration" : 870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1620399570147,
+        "stop" : 1620399570334,
+        "duration" : 187
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Expected [object Promise] to be existing.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:9:46)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    TypeError: SecurePage.flashAlert.getText is not a function\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:45)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    at Object.getErrorFromFailedTest (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:82:60)\n                    at AllureReporter.onTestFail (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\index.js:182:46)\n                    at AllureReporter.<anonymous> (D:\\wdio\\node_modules\\@wdio\\reporter\\build\\index.js:114:18)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:467:12)\n                    at D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:139:24)\n                    at JasmineReporter.specDone (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:80:14)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1620399570307,
+          "stop" : 1620399570334,
+          "duration" : 27
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Expected [object Promise] to be existing.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:9:46)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    TypeError: SecurePage.flashAlert.getText is not a function\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:45)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    at Object.getErrorFromFailedTest (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:82:60)\n                    at AllureReporter.onTestFail (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\index.js:182:46)\n                    at AllureReporter.<anonymous> (D:\\wdio\\node_modules\\@wdio\\reporter\\build\\index.js:114:18)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:467:12)\n                    at D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:139:24)\n                    at JasmineReporter.specDone (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:80:14)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1620399570311,
+            "stop" : 1620399570334,
+            "duration" : 23
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: CompoundError: One or more errors occurred. ---\n                    Error: Expected [object Promise] to be existing.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:9:46)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    TypeError: SecurePage.flashAlert.getText is not a function\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:45)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    at Object.getErrorFromFailedTest (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\utils.js:82:60)\n                    at AllureReporter.onTestFail (D:\\wdio\\node_modules\\@wdio\\allure-reporter\\build\\index.js:182:46)\n                    at AllureReporter.<anonymous> (D:\\wdio\\node_modules\\@wdio\\reporter\\build\\index.js:114:18)\n                    at AllureReporter.emit (events.js:315:20)\n                    at AllureReporter.EventEmitter.emit (domain.js:467:12)\n                    at D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:56\n                    at Array.forEach (<anonymous>)\n                    at BaseReporter.emit (D:\\wdio\\node_modules\\@wdio\\runner\\build\\reporter.js:36:25)\n                    at JasmineReporter.emit (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:139:24)\n                    at JasmineReporter.specDone (D:\\wdio\\node_modules\\@wdio\\jasmine-framework\\build\\reporter.js:80:14)",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e076a9e0cd5433f6",
+            "name" : "Request",
+            "source" : "e076a9e0cd5433f6.json",
+            "type" : "application/json",
+            "size" : 50
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "16c12b35428e6ff2",
+        "name" : "Request",
+        "source" : "16c12b35428e6ff2.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 12
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efe576162cc4c8d4.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

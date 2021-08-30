@@ -1,0 +1,130 @@
+{
+  "uid" : "795fadf7c6b97a0b",
+  "name" : "should login with valid credentials",
+  "fullName" : "my Login application.should login with valid credentials",
+  "historyId" : "7e10a548fa53963d1b1bacaf193aa167",
+  "time" : {
+    "start" : 1620753428206,
+    "stop" : 1620753428418,
+    "duration" : 212
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: element.addValue is not a function",
+  "statusTrace" : "TypeError: element.addValue is not a function\n                    at demoutility.toaddValue (D:\\wdio\\utilities\\/demoutility.js:7:17)\n                    at Login1.validlogin (D:\\wdio\\page\\/userlogin.js:19:21)\n                    at UserContext.<anonymous> (D:\\wdio\\test\\/loginpage.js:6:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: element.addValue is not a function",
+    "statusTrace" : "TypeError: element.addValue is not a function\n                    at demoutility.toaddValue (D:\\wdio\\utilities\\/demoutility.js:7:17)\n                    at Login1.validlogin (D:\\wdio\\page\\/userlogin.js:19:21)\n                    at UserContext.<anonymous> (D:\\wdio\\test\\/loginpage.js:6:19)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1620753428209,
+        "stop" : 1620753428418,
+        "duration" : 209
+      },
+      "status" : "failed",
+      "statusMessage" : "TypeError: element.addValue is not a function\n                    at demoutility.toaddValue (D:\\wdio\\utilities\\/demoutility.js:7:17)\n                    at Login1.validlogin (D:\\wdio\\page\\/userlogin.js:19:21)\n                    at UserContext.<anonymous> (D:\\wdio\\test\\/loginpage.js:6:19)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1620753428334,
+          "stop" : 1620753428418,
+          "duration" : 84
+        },
+        "status" : "failed",
+        "statusMessage" : "TypeError: element.addValue is not a function\n                    at demoutility.toaddValue (D:\\wdio\\utilities\\/demoutility.js:7:17)\n                    at Login1.validlogin (D:\\wdio\\page\\/userlogin.js:19:21)\n                    at UserContext.<anonymous> (D:\\wdio\\test\\/loginpage.js:6:19)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/url",
+          "time" : {
+            "start" : 1620753428352,
+            "stop" : 1620753428418,
+            "duration" : 66
+          },
+          "status" : "failed",
+          "statusMessage" : "TypeError: element.addValue is not a function\n                    at demoutility.toaddValue (D:\\wdio\\utilities\\/demoutility.js:7:17)\n                    at Login1.validlogin (D:\\wdio\\page\\/userlogin.js:19:21)\n                    at UserContext.<anonymous> (D:\\wdio\\test\\/loginpage.js:6:19)",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "7cc27d896b051d19",
+            "name" : "Request",
+            "source" : "7cc27d896b051d19.json",
+            "type" : "application/json",
+            "size" : 41
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "ce26f644efec0820",
+        "name" : "Request",
+        "source" : "ce26f644efec0820.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "my Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "my Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "795fadf7c6b97a0b.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

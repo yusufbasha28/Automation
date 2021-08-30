@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620753428204' stop='1620753428468'>
+    <name>my Login application</name>
+    <title>my Login application</title>
+    <test-cases>
+        <test-case start='1620753428206' status='failed' stop='1620753428418'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620753428209' status='failed' stop='1620753428418'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9663b69b-40d2-4e95-8358-cfcd3c667c14-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps>
+                        <step start='1620753428334' status='failed' stop='1620753428418'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1620753428352' status='failed' stop='1620753428418'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='2408367e-fc96-4fc7-bada-f329c6d4fe0b-attachment.json' type='application/json' size='41'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: element.addValue is not a function</message>
+                <stack-trace>TypeError: element.addValue is not a function
+                    at demoutility.toaddValue (D:\wdio\utilities\/demoutility.js:7:17)
+                    at Login1.validlogin (D:\wdio\page\/userlogin.js:19:21)
+                    at UserContext.&lt;anonymous> (D:\wdio\test\/loginpage.js:6:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1620753428427' status='failed' stop='1620753428460'>
+            <name>should login with invalid credentials</name>
+            <title>should login with invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620753428429' status='failed' stop='1620753428460'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='07db3f26-537d-41b3-ad4d-b679ef82c115-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps>
+                        <step start='1620753428436' status='failed' stop='1620753428460'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1620753428452' status='failed' stop='1620753428460'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='d92f00d8-1dad-40da-afd7-9c60a693abf6-attachment.json' type='application/json' size='41'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: element.addValue is not a function</message>
+                <stack-trace>TypeError: element.addValue is not a function
+                    at demoutility.toaddValue (D:\wdio\utilities\/demoutility.js:7:17)
+                    at Login1.invalidlogin (D:\wdio\page\/userlogin.js:26:21)
+                    at UserContext.&lt;anonymous> (D:\wdio\test\/loginpage.js:9:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

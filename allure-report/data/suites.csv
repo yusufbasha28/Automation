@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat May 15 15:42:26 IST 2021","Sat May 15 15:42:32 IST 2021","6591","","my Login application","","my Login application","should login with valid credentials","should login with valid credentials",""
+"passed","Sat May 15 15:42:32 IST 2021","Sat May 15 15:42:33 IST 2021","1117","","my Login application","","my Login application","should login with invalid credentials","should login with invalid credentials",""
+"passed","Sat May 15 15:42:33 IST 2021","Sat May 15 15:42:47 IST 2021","13327","","my Login application","","my Login application","should drag and drop","should drag and drop",""
+"failed","Fri May 07 20:49:37 IST 2021","Fri May 07 20:49:46 IST 2021","9207","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"passed","Sat May 15 15:42:48 IST 2021","Sat May 15 15:42:49 IST 2021","1136","","my Login application","","my Login application","should scroll","should scroll",""
+"passed","Sat May 15 15:42:47 IST 2021","Sat May 15 15:42:48 IST 2021","1713","","my Login application","","my Login application","should open checkboxes","should open checkboxes",""

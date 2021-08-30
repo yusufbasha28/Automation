@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620057246238' stop='1620057257649'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1620057246240' status='failed' stop='1620057257637'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620057246243' status='passed' stop='1620057255583'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='803baca2-cafb-480b-9059-986328f8fc13-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057255588' status='passed' stop='1620057255639'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ca47b0b7-6836-4d02-9c16-237e7c38a313-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='5f9722dd-e9e5-4d13-ad30-dc04041ae21c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057255659' status='passed' stop='1620057255733'>
+                    <name>POST /session/:sessionId/element/d5740083-5537-407f-aaa0-ee6d31867c9e/clear</name>
+                    <title>POST /session/:sessionId/element/d5740083-5537-407f-aaa0-ee6d31867c9e/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620057255741' status='passed' stop='1620057255864'>
+                    <name>POST /session/:sessionId/element/d5740083-5537-407f-aaa0-ee6d31867c9e/value</name>
+                    <title>POST /session/:sessionId/element/d5740083-5537-407f-aaa0-ee6d31867c9e/value</title>
+                    <attachments>
+                        <attachment title='Request' source='b668b42d-c387-4275-bf40-a94f858498e4-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057255866' status='passed' stop='1620057255908'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b3ccc260-460f-4dfc-8659-fc30c373ef68-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='3438194b-fe04-4cef-8f6a-56db9c1b3768-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057255914' status='passed' stop='1620057256003'>
+                    <name>POST /session/:sessionId/element/5cc9250d-df9b-4046-aa54-18a1b10897d1/clear</name>
+                    <title>POST /session/:sessionId/element/5cc9250d-df9b-4046-aa54-18a1b10897d1/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620057256006' status='passed' stop='1620057256642'>
+                    <name>POST /session/:sessionId/element/5cc9250d-df9b-4046-aa54-18a1b10897d1/value</name>
+                    <title>POST /session/:sessionId/element/5cc9250d-df9b-4046-aa54-18a1b10897d1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c52f44f6-674a-4e20-bef5-5bb4dc9f30a0-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057256643' status='passed' stop='1620057256683'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e9f7f3e6-1b80-4aa6-98db-252a134559da-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='09228ffc-39bf-49f1-97e6-b27cb0c36969-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057256694' status='passed' stop='1620057257592'>
+                    <name>POST /session/:sessionId/element/e3d6a484-0ab2-4b26-98a2-c508cf315803/click</name>
+                    <title>POST /session/:sessionId/element/e3d6a484-0ab2-4b26-98a2-c508cf315803/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620057257600' status='failed' stop='1620057257635'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4aed90e3-c458-4efe-858e-441f3f06782f-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1620057257609' status='failed' stop='1620057257634'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='f1f63ff8-232c-4be5-912f-1df53276aaec-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps>
+                                <step start='1620057257621' status='failed' stop='1620057257634'>
+                                    <name>GET /session/:sessionId/screenshot</name>
+                                    <title>GET /session/:sessionId/screenshot</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                    Error: Expected [object Promise] to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:9:45)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    Error: Expected [object Promise] to have text containing 'You logged into a secure area!'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:10:45)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    error properties: Object({ matcherName: 'toBeExisting', passed: undefined, expected: [  ], actual: [object Promise] })
+                    Error: Expected [object Promise] to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:9:45)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---</message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                    Error: Expected [object Promise] to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:9:45)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    Error: Expected [object Promise] to have text containing 'You logged into a secure area!'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:10:45)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    error properties: Object({ matcherName: 'toBeExisting', passed: undefined, expected: [  ], actual: [object Promise] })
+                    Error: Expected [object Promise] to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:9:45)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    at Object.getErrorFromFailedTest (D:\wdio\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (D:\wdio\node_modules\@wdio\allure-reporter\build\index.js:182:46)
+                    at AllureReporter.&lt;anonymous> (D:\wdio\node_modules\@wdio\reporter\build\index.js:114:18)
+                    at AllureReporter.emit (events.js:315:20)
+                    at AllureReporter.EventEmitter.emit (domain.js:467:12)
+                    at D:\wdio\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (D:\wdio\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (D:\wdio\node_modules\@wdio\jasmine-framework\build\reporter.js:139:24)
+                    at JasmineReporter.specDone (D:\wdio\node_modules\@wdio\jasmine-framework\build\reporter.js:80:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

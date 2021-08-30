@@ -1,0 +1,160 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620400192611' stop='1620400203443'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1620400192614' status='failed' stop='1620400203399'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620400192622' status='passed' stop='1620400200656'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a3c16018-c030-4e6f-b36c-26d5e3a0689f-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620400200660' status='passed' stop='1620400200759'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='be9c277a-2d75-45f8-98ed-ec3ad77d1bb9-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='289ad016-9091-4fac-929b-405c44fcb5ff-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620400200781' status='passed' stop='1620400200860'>
+                    <name>POST /session/:sessionId/element/79f872b1-5709-447a-94e8-d79ae0f903ea/clear</name>
+                    <title>POST /session/:sessionId/element/79f872b1-5709-447a-94e8-d79ae0f903ea/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620400200870' status='passed' stop='1620400200963'>
+                    <name>POST /session/:sessionId/element/79f872b1-5709-447a-94e8-d79ae0f903ea/value</name>
+                    <title>POST /session/:sessionId/element/79f872b1-5709-447a-94e8-d79ae0f903ea/value</title>
+                    <attachments>
+                        <attachment title='Request' source='2301beff-a5da-4c71-a97b-0f6abe79a9f8-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620400200964' status='passed' stop='1620400201039'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8ea064a1-370e-41e5-81b0-2e1260f38c2d-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='f5b24210-4282-47b9-878d-7ea5aab7ab77-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620400201045' status='passed' stop='1620400201156'>
+                    <name>POST /session/:sessionId/element/258afb47-b1f3-4452-ba22-ab2136d94269/clear</name>
+                    <title>POST /session/:sessionId/element/258afb47-b1f3-4452-ba22-ab2136d94269/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620400201157' status='passed' stop='1620400201308'>
+                    <name>POST /session/:sessionId/element/258afb47-b1f3-4452-ba22-ab2136d94269/value</name>
+                    <title>POST /session/:sessionId/element/258afb47-b1f3-4452-ba22-ab2136d94269/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c49f2430-c4f8-4d2d-9bef-104d4830e14b-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620400201309' status='passed' stop='1620400201908'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d9e729e9-35a5-4665-b3a6-125fb9bdafd4-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='9052d6d1-1ce2-4da6-812c-979fedc0e0b0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620400201918' status='passed' stop='1620400203153'>
+                    <name>POST /session/:sessionId/element/f2c8983b-fd49-4fa9-ad04-5ebb254e40b8/click</name>
+                    <title>POST /session/:sessionId/element/f2c8983b-fd49-4fa9-ad04-5ebb254e40b8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620400203153' status='passed' stop='1620400203231'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a38bdccb-3768-475b-adf8-93e6c11470b1-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='cfa52fd5-8c20-43ba-8ec0-d7ca58f95fbf-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620400203253' status='failed' stop='1620400203398'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='55c0218c-eb28-4c17-9df9-b5f440ab445f-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1620400203271' status='passed' stop='1620400203373'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='b3b52aa7-755f-4826-ab4b-4a1045d36487-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Response' source='0edb40d1-ec1e-4d1e-b87c-4175011b4cbd-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1620400203386' status='failed' stop='1620400203398'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='f3b4bcb1-8f13-472e-81f0-de7af76ba7cf-attachment.json' type='application/json' size='93'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                    Error: Expected Element({ sessionId: '4cbc35d8f1e928005de006f00e0f44e3', elementId: 'b875a78f-5147-4ff1-a66e-9b3b2aad6c4b', element-6066-11e4-a52e-4f735466cecf: 'b875a78f-5147-4ff1-a66e-9b3b2aad6c4b', selector: '#flash', parent: Browser({ sessionId: '4cbc35d8f1e928005de006f00e0f44e3', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir6500_794956554' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:56023' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true }) ... to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:9:52)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    TypeError: expect(...).toHaveContainText is not a function
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:10:52)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---</message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                    Error: Expected Element({ sessionId: '4cbc35d8f1e928005de006f00e0f44e3', elementId: 'b875a78f-5147-4ff1-a66e-9b3b2aad6c4b', element-6066-11e4-a52e-4f735466cecf: 'b875a78f-5147-4ff1-a66e-9b3b2aad6c4b', selector: '#flash', parent: Browser({ sessionId: '4cbc35d8f1e928005de006f00e0f44e3', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir6500_794956554' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:56023' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true }) ... to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:9:52)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    TypeError: expect(...).toHaveContainText is not a function
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:10:52)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    at Object.getErrorFromFailedTest (D:\wdio\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (D:\wdio\node_modules\@wdio\allure-reporter\build\index.js:182:46)
+                    at AllureReporter.&lt;anonymous> (D:\wdio\node_modules\@wdio\reporter\build\index.js:114:18)
+                    at AllureReporter.emit (events.js:315:20)
+                    at AllureReporter.EventEmitter.emit (domain.js:467:12)
+                    at D:\wdio\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (D:\wdio\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (D:\wdio\node_modules\@wdio\jasmine-framework\build\reporter.js:139:24)
+                    at JasmineReporter.specDone (D:\wdio\node_modules\@wdio\jasmine-framework\build\reporter.js:80:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

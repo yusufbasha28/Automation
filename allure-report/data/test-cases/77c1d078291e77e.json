@@ -1,0 +1,134 @@
+{
+  "uid" : "77c1d078291e77e",
+  "name" : "should drag and drop",
+  "fullName" : "my Login application.should drag and drop",
+  "historyId" : "c8681c81d2fa3d713deadea15f1ebe00",
+  "time" : {
+    "start" : 1621073553750,
+    "stop" : 1621073567077,
+    "duration" : 13327
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "my Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should drag and drop"
+  }, {
+    "name" : "package",
+    "value" : "my Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "49bf19b1ab5145f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621056072655,
+        "stop" : 1621056140017,
+        "duration" : 67362
+      }
+    }, {
+      "uid" : "f6f1e96d4b150a24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621054184958,
+        "stop" : 1621054363794,
+        "duration" : 178836
+      }
+    }, {
+      "uid" : "26344e672de0a39b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621053987012,
+        "stop" : 1621054082905,
+        "duration" : 95893
+      }
+    }, {
+      "uid" : "59d2b54a7ba37888",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621053819323,
+        "stop" : 1621053844562,
+        "duration" : 25239
+      }
+    }, {
+      "uid" : "a8ae1d23d7ba441e",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+      "time" : {
+        "start" : 1621052403947,
+        "stop" : 1621052463974,
+        "duration" : 60027
+      }
+    }, {
+      "uid" : "9186eb1475cdd94f",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+      "time" : {
+        "start" : 1620919618602,
+        "stop" : 1620919678689,
+        "duration" : 60087
+      }
+    }, {
+      "uid" : "9b9d34f9b8e6c59c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918530304,
+        "stop" : 1620918556935,
+        "duration" : 26631
+      }
+    }, {
+      "uid" : "fbb53f8df7f3c6c6",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async function did not complete within 60000ms (set by jasmine.DEFAULT_TIMEOUT_INTERVAL)",
+      "time" : {
+        "start" : 1620918429639,
+        "stop" : 1620918489661,
+        "duration" : 60022
+      }
+    }, {
+      "uid" : "860274bd9f475e3e",
+      "status" : "failed",
+      "statusDetails" : "Error: command dragAndDrop requires an WebdriverIO Element or and object with \"x\" and \"y\" variables as first parameter",
+      "time" : {
+        "start" : 1620918200475,
+        "stop" : 1620918211673,
+        "duration" : 11198
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77c1d078291e77e.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

@@ -1,0 +1,173 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620057746160' stop='1620057760239'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1620057746172' status='failed' stop='1620057760227'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620057746177' status='passed' stop='1620057758241'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5a203bbb-37c6-426d-bf5d-86a3a96728c9-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057758245' status='passed' stop='1620057758305'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4a955bc4-cf1b-4400-9eac-badb81bfd4b5-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='d1cc099d-8ee7-4f44-96e5-46e7b4daf1a4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057758323' status='passed' stop='1620057758404'>
+                    <name>POST /session/:sessionId/element/1351df7a-ccc8-44a5-b4af-9111ae642920/clear</name>
+                    <title>POST /session/:sessionId/element/1351df7a-ccc8-44a5-b4af-9111ae642920/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620057758431' status='passed' stop='1620057758567'>
+                    <name>POST /session/:sessionId/element/1351df7a-ccc8-44a5-b4af-9111ae642920/value</name>
+                    <title>POST /session/:sessionId/element/1351df7a-ccc8-44a5-b4af-9111ae642920/value</title>
+                    <attachments>
+                        <attachment title='Request' source='158bb22f-7a70-4bd6-b190-79a41bd5c872-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057758569' status='passed' stop='1620057758616'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2bc3102f-1f4a-4660-9e7e-6ed3e3667125-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='6d5866af-dde7-4a95-9e19-438d857ea4ca-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057758623' status='passed' stop='1620057758716'>
+                    <name>POST /session/:sessionId/element/e14dbf30-f007-4be9-84be-0d4bef915960/clear</name>
+                    <title>POST /session/:sessionId/element/e14dbf30-f007-4be9-84be-0d4bef915960/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620057758719' status='passed' stop='1620057758892'>
+                    <name>POST /session/:sessionId/element/e14dbf30-f007-4be9-84be-0d4bef915960/value</name>
+                    <title>POST /session/:sessionId/element/e14dbf30-f007-4be9-84be-0d4bef915960/value</title>
+                    <attachments>
+                        <attachment title='Request' source='74cd911a-703c-487a-922d-5d20b503d299-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057758914' status='passed' stop='1620057758965'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9128a4ae-a57d-4085-ab78-3b9e2c2db28d-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='7f197630-ccdb-4b8b-afed-c667b26c231b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057758975' status='passed' stop='1620057760128'>
+                    <name>POST /session/:sessionId/element/141a1e93-5d52-4835-9b94-d36217277956/click</name>
+                    <title>POST /session/:sessionId/element/141a1e93-5d52-4835-9b94-d36217277956/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620057760128' status='passed' stop='1620057760161'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a333534a-7648-4066-b4e7-35b11b740627-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='e60bace1-afae-4713-a4cd-c0e96617de82-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620057760205' status='failed' stop='1620057760224'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4913b9b0-a83c-4cc5-aa2d-0bd91ffff115-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1620057760211' status='failed' stop='1620057760224'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1620057760229' status='undefined'>
+                    <name>GET /session/:sessionId/element/116c89ce-0c2b-462f-993d-cd2721e2a2dc/text</name>
+                    <title>GET /session/:sessionId/element/116c89ce-0c2b-462f-993d-cd2721e2a2dc/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                    Error: Expected Element({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', elementId: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', element-6066-11e4-a52e-4f735466cecf: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', selector: '#flash', parent: Browser({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir21476_923311524' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:53860' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true ... to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:10:29)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    Error: Expected Element({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', elementId: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', element-6066-11e4-a52e-4f735466cecf: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', selector: '#flash', parent: Browser({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir21476_923311524' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:53860' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true ... to have text containing 'You logged into a secure area!'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:11:29)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    error properties: Object({ matcherName: 'toBeExisting', passed: undefined, expected: [  ], actual: Element({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', elementId: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', element-6066-11e4-a52e-4f735466cecf: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', selector: '#flash', parent: Browser({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir21476_923311524' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:53860' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss an ...
+                    Error: Expected Element({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', elementId: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', element-6066-11e4-a52e-4f735466cecf: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', selector: '#flash', parent: Browser({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir21476_923311524' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:53860' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true ... to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:10:29)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---</message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                    Error: Expected Element({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', elementId: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', element-6066-11e4-a52e-4f735466cecf: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', selector: '#flash', parent: Browser({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir21476_923311524' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:53860' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true ... to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:10:29)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    Error: Expected Element({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', elementId: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', element-6066-11e4-a52e-4f735466cecf: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', selector: '#flash', parent: Browser({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir21476_923311524' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:53860' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true ... to have text containing 'You logged into a secure area!'.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:11:29)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    error properties: Object({ matcherName: 'toBeExisting', passed: undefined, expected: [  ], actual: Element({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', elementId: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', element-6066-11e4-a52e-4f735466cecf: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', selector: '#flash', parent: Browser({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir21476_923311524' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:53860' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss an ...
+                    Error: Expected Element({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', elementId: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', element-6066-11e4-a52e-4f735466cecf: '116c89ce-0c2b-462f-993d-cd2721e2a2dc', selector: '#flash', parent: Browser({ sessionId: 'b4cbd1d56b0624c06b3a1d512a157ee1', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\Users\vijay\AppData\Local\Temp\scoped_dir21476_923311524' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:53860' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true ... to be existing.
+                        at &lt;Jasmine>
+                        at &lt;Jasmine>
+                        at UserContext.&lt;anonymous> (D:\wdio\test\specs\example.e2e.js:10:29)
+                        at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                --- End of stack trace ---
+                    at Object.getErrorFromFailedTest (D:\wdio\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (D:\wdio\node_modules\@wdio\allure-reporter\build\index.js:182:46)
+                    at AllureReporter.&lt;anonymous> (D:\wdio\node_modules\@wdio\reporter\build\index.js:114:18)
+                    at AllureReporter.emit (events.js:315:20)
+                    at AllureReporter.EventEmitter.emit (domain.js:467:12)
+                    at D:\wdio\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (D:\wdio\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (D:\wdio\node_modules\@wdio\jasmine-framework\build\reporter.js:139:24)
+                    at JasmineReporter.specDone (D:\wdio\node_modules\@wdio\jasmine-framework\build\reporter.js:80:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

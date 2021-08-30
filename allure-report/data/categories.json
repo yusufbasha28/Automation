@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "CompoundError: One or more errors occurred. ---\n                    Error: Expected Element({ sessionId: '8038c116979f93d2ebfc120da675bb89', elementId: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', element-6066-11e4-a52e-4f735466cecf: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', selector: 'h4.subheader', parent: Browser({ sessionId: '8038c116979f93d2ebfc120da675bb89', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\\Users\\vijay\\AppData\\Local\\Temp\\scoped_dir18248_1638071670' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:56342' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators ... to have text containing 'Secure Area'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:51)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: 'toHaveTextContaining', passed: undefined, expected: 'Secure Area', actual: Element({ sessionId: '8038c116979f93d2ebfc120da675bb89', elementId: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', element-6066-11e4-a52e-4f735466cecf: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', selector: 'h4.subheader', parent: Browser({ sessionId: '8038c116979f93d2ebfc120da675bb89', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\\Users\\vijay\\AppData\\Local\\Temp\\scoped_dir18248_1638071670' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:56342' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPro ...\n                    Error: Expected Element({ sessionId: '8038c116979f93d2ebfc120da675bb89', elementId: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', element-6066-11e4-a52e-4f735466cecf: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', selector: 'h4.subheader', parent: Browser({ sessionId: '8038c116979f93d2ebfc120da675bb89', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\\Users\\vijay\\AppData\\Local\\Temp\\scoped_dir18248_1638071670' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:56342' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators ... to have text containing 'Secure Area'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:51)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---",
+      "children" : [ {
+        "name" : "should login with valid credentials",
+        "uid" : "abadecd2ca2de27c",
+        "parentUid" : "9ef43f162d89b5e5d35faa363788c52e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620400777242,
+          "stop" : 1620400786449,
+          "duration" : 9207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.93" ]
+      } ],
+      "uid" : "9ef43f162d89b5e5d35faa363788c52e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

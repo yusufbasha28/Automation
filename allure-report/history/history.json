@@ -1,0 +1,117 @@
+{
+  "f6248867f60f4f189b410e895228290d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f50c7055780423ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621073568794,
+        "stop" : 1621073569930,
+        "duration" : 1136
+      }
+    } ]
+  },
+  "ffd3493913c92cbfdea59969eb5ba6e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "abadecd2ca2de27c",
+      "status" : "failed",
+      "statusDetails" : "CompoundError: One or more errors occurred. ---\n                    Error: Expected Element({ sessionId: '8038c116979f93d2ebfc120da675bb89', elementId: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', element-6066-11e4-a52e-4f735466cecf: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', selector: 'h4.subheader', parent: Browser({ sessionId: '8038c116979f93d2ebfc120da675bb89', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\\Users\\vijay\\AppData\\Local\\Temp\\scoped_dir18248_1638071670' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:56342' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators ... to have text containing 'Secure Area'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:51)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---\n                    error properties: Object({ matcherName: 'toHaveTextContaining', passed: undefined, expected: 'Secure Area', actual: Element({ sessionId: '8038c116979f93d2ebfc120da675bb89', elementId: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', element-6066-11e4-a52e-4f735466cecf: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', selector: 'h4.subheader', parent: Browser({ sessionId: '8038c116979f93d2ebfc120da675bb89', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\\Users\\vijay\\AppData\\Local\\Temp\\scoped_dir18248_1638071670' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:56342' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPro ...\n                    Error: Expected Element({ sessionId: '8038c116979f93d2ebfc120da675bb89', elementId: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', element-6066-11e4-a52e-4f735466cecf: '0cfb42bf-fb57-461c-be4f-a33d35ee6a97', selector: 'h4.subheader', parent: Browser({ sessionId: '8038c116979f93d2ebfc120da675bb89', capabilities: Object({ acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '90.0.4430.93', chrome: Object({ chromedriverVersion: '90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429})', userDataDir: 'C:\\Users\\vijay\\AppData\\Local\\Temp\\scoped_dir18248_1638071670' }), goog:chromeOptions: Object({ debuggerAddress: 'localhost:56342' }), networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: Object({  }), setWindowRect: true, strictFileInteractability: false, timeouts: Object({ implicit: 0, pageLoad: 300000, script: 30000 }), unhandledPromptBehavior: 'dismiss and notify', webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators ... to have text containing 'Secure Area'.\n                        at <Jasmine>\n                        at <Jasmine>\n                        at UserContext.<anonymous> (D:\\wdio\\test\\specs\\example.e2e.js:10:51)\n                        at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                --- End of stack trace ---",
+      "time" : {
+        "start" : 1620400777242,
+        "stop" : 1620400786449,
+        "duration" : 9207
+      }
+    } ]
+  },
+  "7e10a548fa53963d1b1bacaf193aa167" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a61287c2f051db9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621073546041,
+        "stop" : 1621073552632,
+        "duration" : 6591
+      }
+    } ]
+  },
+  "c8681c81d2fa3d713deadea15f1ebe00" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77c1d078291e77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621073553750,
+        "stop" : 1621073567077,
+        "duration" : 13327
+      }
+    } ]
+  },
+  "97de6ba2b36b06e4cd5c674ef8c05add" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9fca8d1f0d49f951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621073567080,
+        "stop" : 1621073568793,
+        "duration" : 1713
+      }
+    } ]
+  },
+  "ab0348dbd3fa811ca5a7982a9230010b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ec6799e52c39ba3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621073552633,
+        "stop" : 1621073553750,
+        "duration" : 1117
+      }
+    } ]
+  }
+}

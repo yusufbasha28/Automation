@@ -1,0 +1,171 @@
+{
+  "uid" : "5bb8efb87ae34d25",
+  "name" : "should open checkboxes",
+  "fullName" : "my Login application.should open checkboxes",
+  "historyId" : "97de6ba2b36b06e4cd5c674ef8c05add",
+  "time" : {
+    "start" : 1621056140021,
+    "stop" : 1621056142092,
+    "duration" : 2071
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1621056140022,
+        "stop" : 1621056141301,
+        "duration" : 1279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2f40df5a7cc3014",
+        "name" : "Request",
+        "source" : "b2f40df5a7cc3014.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1621056141302,
+        "stop" : 1621056141351,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "50e51de99f1be816",
+        "name" : "Request",
+        "source" : "50e51de99f1be816.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "a72c5e3536d96961",
+        "name" : "Response",
+        "source" : "a72c5e3536d96961.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/76fe58a5-6b49-4f53-a086-35a1237299b2/click",
+      "time" : {
+        "start" : 1621056141366,
+        "stop" : 1621056141929,
+        "duration" : 563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1621056141931,
+        "stop" : 1621056141994,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42cfc1fe69674b60",
+        "name" : "Request",
+        "source" : "42cfc1fe69674b60.json",
+        "type" : "application/json",
+        "size" : 55
+      }, {
+        "uid" : "a966e7d9c3a7e0de",
+        "name" : "Response",
+        "source" : "a966e7d9c3a7e0de.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/609aaf1f-d5f3-47ad-b900-d8a7b7d20a5e/click",
+      "time" : {
+        "start" : 1621056142003,
+        "stop" : 1621056142091,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "my Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open checkboxes"
+  }, {
+    "name" : "package",
+    "value" : "my Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bb8efb87ae34d25.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

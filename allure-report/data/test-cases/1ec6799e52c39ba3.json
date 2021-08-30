@@ -1,0 +1,179 @@
+{
+  "uid" : "1ec6799e52c39ba3",
+  "name" : "should login with invalid credentials",
+  "fullName" : "my Login application.should login with invalid credentials",
+  "historyId" : "ab0348dbd3fa811ca5a7982a9230010b",
+  "time" : {
+    "start" : 1621073552633,
+    "stop" : 1621073553750,
+    "duration" : 1117
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "my Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "my Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bc18018de2966e19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621056070068,
+        "stop" : 1621056072655,
+        "duration" : 2587
+      }
+    }, {
+      "uid" : "d03fcb2936081938",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621054183785,
+        "stop" : 1621054184957,
+        "duration" : 1172
+      }
+    }, {
+      "uid" : "775f22b057de7db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621053985955,
+        "stop" : 1621053987011,
+        "duration" : 1056
+      }
+    }, {
+      "uid" : "c207bb1fd257e8b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621053816503,
+        "stop" : 1621053819323,
+        "duration" : 2820
+      }
+    }, {
+      "uid" : "1028ad8d5a4e5df3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621052403150,
+        "stop" : 1621052403946,
+        "duration" : 796
+      }
+    }, {
+      "uid" : "8d4a7e16fbc559cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620919617827,
+        "stop" : 1620919618602,
+        "duration" : 775
+      }
+    }, {
+      "uid" : "a965e34346d153dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918529699,
+        "stop" : 1620918530303,
+        "duration" : 604
+      }
+    }, {
+      "uid" : "a5245b58b513b52a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918428984,
+        "stop" : 1620918429639,
+        "duration" : 655
+      }
+    }, {
+      "uid" : "1f9bccc51c32ec09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620918199570,
+        "stop" : 1620918200474,
+        "duration" : 904
+      }
+    }, {
+      "uid" : "3649f139b0f3149a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620917976590,
+        "stop" : 1620917977469,
+        "duration" : 879
+      }
+    }, {
+      "uid" : "ba441a74551efba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620847780339,
+        "stop" : 1620847780982,
+        "duration" : 643
+      }
+    }, {
+      "uid" : "269111a61b0ad140",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620821035135,
+        "stop" : 1620821036028,
+        "duration" : 893
+      }
+    }, {
+      "uid" : "f806a89caaae68fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620819853267,
+        "stop" : 1620819860401,
+        "duration" : 7134
+      }
+    }, {
+      "uid" : "558c39de09c2adb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620753535556,
+        "stop" : 1620753536230,
+        "duration" : 674
+      }
+    }, {
+      "uid" : "6ed0c7b5594cdd26",
+      "status" : "failed",
+      "statusDetails" : "TypeError: element.addValue is not a function",
+      "time" : {
+        "start" : 1620753428427,
+        "stop" : 1620753428460,
+        "duration" : 33
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ec6799e52c39ba3.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

@@ -1,0 +1,82 @@
+{
+  "uid" : "9fca8d1f0d49f951",
+  "name" : "should open checkboxes",
+  "fullName" : "my Login application.should open checkboxes",
+  "historyId" : "97de6ba2b36b06e4cd5c674ef8c05add",
+  "time" : {
+    "start" : 1621073567080,
+    "stop" : 1621073568793,
+    "duration" : 1713
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "my Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "my Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open checkboxes"
+  }, {
+    "name" : "package",
+    "value" : "my Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5bb8efb87ae34d25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621056140021,
+        "stop" : 1621056142092,
+        "duration" : 2071
+      }
+    }, {
+      "uid" : "40e12f74fdee643b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621054363799,
+        "stop" : 1621054365782,
+        "duration" : 1983
+      }
+    }, {
+      "uid" : "b51bd7fa23a31a03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621054082909,
+        "stop" : 1621054084957,
+        "duration" : 2048
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fca8d1f0d49f951.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}
